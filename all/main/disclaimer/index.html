@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/all/main/style.css">
+</head>
+<body>
+    <div id="app"></div>
+
+    <div class="full-menu">
+      <div id="full-menu" class="flex">
+
+        <div class="full-close">
+          <img src="img/hamburger.svg">
+        </div>
+
+        <ul>
+          <li class="menu-txt"><a href="/all/whitePaper/assets/white paper ru.pdf">White paper</a></li>
+          <li class="menu-txt"><a href="https://t.me/mcn_network">Контакты</a></li>
+          <li class="menu-txt"><a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">Roadmap</a></li>
+          <li class="menu-txt"><a href="/all/main/disclaimer/index.html">Дисклеймер</a></li>
+        </ul>
+
+        <div id="language" class="flex" onclick="actionToggle();">
+          <img class="img-lang" src="img/android-globe.svg">
+
+          <p class="logo-txt">Русский - Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+
+        </div>
+      </div>
+    </div>
+
+  <div class="menu-wrapper">
+    <div class="menu flex">
+      <div class="logo flex">
+        <img class="absolute" src="img/Frame.svg">
+        <img class="absolute" src="img/Group 36.svg">
+      </div>
+      <div class="logo-txt">MCN COIN</div>
+    </div>
+
+    <div class="menu-btn">
+      <p class="menu-txt"><a href="/all/whitePaper/assets/white paper ru.pdf">White paper</a></p>
+      <p class="menu-txt"><a href="https://t.me/mcn_network">Контакты</a></p>
+      <p class="menu-txt"><a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">Roadmap</a></p>
+      <p class="menu-txt"><a id="disclaimer">Дисклеймер</a></p>
+    </div>
+
+    <script>
+      // Функция для прокрутки страницы к указанному элементу
+      function scrollToSection(sectionId) {
+          var element = document.getElementById(sectionId);
+          if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+          }
+      }
+  </script>
+
+    <div class="menu flex language" onclick="actionToggle();">
+      <span class="none">
+        <img class="img-lang" src="img/android-globe.svg">
+      </span>
+
+      <p class="logo-txt"><span class="none">Русский -</span> Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+      <a href="/all/english/english.html" class="before">English - En</a>
+
+
+
+
+    </div>
+    
+    <div id="none">
+      <div class="bars flex">
+        <div class="bar">
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="app-disc">
+        <div class="disclaimerr">
+            <div class="diskc">
+                <p class="disclaim">Мы - опытная команда профессионалов, стоящая за MCN.</p>
+                <p class="disclaim-txt">MCN - это криптовалюта, разработанная нашей компанией, "Бирик Туран", Это цифровой актив, который предназначен для облегчения процессов платежей, инвестиций и обмена внутри нашей экосистемы MCN - базируется на передовых технологиях блокчейн, обеспечивая безопасность и прозрачность транзакций.</p>
+                <p class="disclaim-txt">Наша монета предоставляет удобные решения для пользователей, позволяя им использовать криптовалюту в различных аспектах своей повседневной жизни, включая оплату товаров и услуг, участие в наших проектах и взаимодействие с нашими партнерами по всему миру.<br></p>
+            </div>
+            <div class="diskc">
+              <p class="diskclaim"><br>We are an experienced team of professionals behind MCN.</p>
+              <p class="disclaim-txt">MCN is a cryptocurrency developed by our company, "Birik Turan". It is a digital asset designed to facilitate payment processes, investments, and exchanges within our MCN ecosystem. MCN is based on advanced blockchain technologies, ensuring the security and transparency of transactions.</p>
+              <p class="disclaim-txt">Our coin provides convenient solutions for users, allowing them to use cryptocurrency in various aspects of their daily lives, including payment for goods and services, participation in our projects, and interaction with our partners around the world.</p>
+          </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="grid">
+          <ul>
+            <div class="div">
+              <div class="flex">
+                <img class="fot-logo" src="img/Frame.svg">
+                <img class="fot-logo" src="img/Group 36.svg">
+              </div>
+            </div>
+            <li>MCNcoin инновационный токен компании "Бирик-Туран"</li>
+            <li>© 2024 MCNcoin</li>
+          </ul>
+        </div>
+        <div class="grid">
+    
+          <div id="app"></div>
+    
+          <ul>
+            <a href="#">
+              <li>О нас</li>
+            </a>
+            <a href="https://t.me/mcn_network">
+              <li>Контакты</li>
+            </a>
+            <a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">
+              <li>Roadmap</li>
+            </a>
+            <a id="disclaimer">
+              Дисклеймер
+            </a>
+            <a href="#" onclick="openPdfPage()">
+              <li>White paper</li>
+            </a>
+          </ul>
+        </div>
+        <div class="grid">
+          <ul>
+            <a href="#">
+              <li>Политика конфеденциальности</li>
+            </a>
+            <a href="#">
+              <li>Правила пользования</li>
+            </a>
+            <a href="#">
+              <li>Почта</li>
+            </a>
+            <div class="icons flex">
+              <a href="https://www.instagram.com/mcncoin_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i id="icon" class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/mcnofficialm?s=21"><i id="icon" class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://t.me/mcn_network"><i id="icon" class="fa-brands fa-telegram"></i></a>
+            </div>
+          </ul>
+        </div>
+    
+      </footer>
+    <script src="/all/main/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/all/main/style.css">
+    <link rel="shortcut icon" href="https://mcncoin.io/assets/images/favicon.png" type="image/png">
+</head>
+<body>
+
+      <!-- MENU -->
+
+  <div id="app"></div>
+
+  <div class="full-menu">
+    <div id="full-menu" class="flex">
+
+      <div class="full-close">
+        <img src="/all/main/img/hamburger.svg">
+      </div>
+
+      <ul>
+        <li class="menu-txt"><a>White paper</a></li>
+        <li class="menu-txt"><a href="#prem">О нас</a></li>
+        <li class="menu-txt"><a href="#road">Контакты</a></li>
+        <li class="menu-txt"><a href="#">Roadmap</a></li>
+        <li class="menu-txt"><a id="#">Дисклеймер</a></li>
+      </ul>
+
+      <div id="language" class="flex">
+        <img class="img-lang" src="/all/main/img/android-globe.svg">
+
+        <p class="logo-txt">Русский - Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-wrapper">
+    <div class="menu flex" onclick="goToHome()">
+      <div class="logo flex">
+        <img class="absolute" src="/all/main/img/Frame.svg">
+        <img class="absolute" src="/all/main/img/Group 36.svg">
+      </div>
+      <div class="logo-txt">MCN COIN</div>
+    </div>
+
+    <div class="menu-btn">
+      <p class="menu-txt"><a href="/all/main/whitePaper/assets/white paper ru.pdf">White paper</a></p>
+      <p class="menu-txt"><a href="#">О нас</a></p>
+      <p class="menu-txt"><a href="#">Контакты</a></p>
+      <p class="menu-txt"><a href="#">Roadmap</a></p>
+      <p class="menu-txt"><a id="disclaimer">Дисклеймер</a></p>
+    </div>
+
+    <div class="menu flex language" onclick="actionToggle();">
+      <span class="none">
+        <img class="img-lang" src="/all/main/img/android-globe.svg">
+      </span>
+
+      <p class="logo-txt"><span class="none">Русский -</span> Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+      <p class="before">English</p>
+    </div>
+    
+    <div id="none">
+      <div class="bars flex">
+        <div class="bar">
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -->
+
+  <script>
+    function goToHome() {
+        // Используем метод window.location.href для перехода на другой URL
+        window.location.href = "/all/main/index.html";
+    }
+    </script>
+
+    <div class="cards flex" id="road">
+        <p class="patrner-txt">Начало работы</p>
+        <div class="card">
+    
+          <div class="frame">
+            <div class="card-block"></div>
+            <p class="frame-txt" style="margin-left: 15px;">Выберите криптовалютный кошелек:</p>
+            <p id="frame-txt"></p>
+          </div>
+    
+          <img src="/all/main/img/points.svg" class="card-img">
+    
+          <div class="frame1">
+            <div class="coins">
+              <p class="coins-txt">Trust Wallet</p> 
+            </div>
+            <div class="coins">
+              <p class="coins-txt">Metamask</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">Trustee Plus</p>
+            </div>
+          </div>
+    
+        </div>
+        <!-- <div class="card">
+    
+          <div class="frame1">
+            <div class="coins">
+              <p class="coins-txt">Личная платформа для перевода</p>
+            </div>
+            <div class="coins">
+              <p class="coins-txt">Улучшение безопасности</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">Улучшение конфиденциальности</p>
+            </div>
+          </div>
+    
+          <img src="img/points.svg" class="card-img1">
+    
+          <div class="frame">
+            <div class="card-block"></div>
+            <p class="frame-txt">2 квартал</p>
+            <p id="frame-txt">2024</p>
+          </div>
+    
+        </div> -->
+    
+        <!-- <div class="card">
+    
+          <div class="frame">
+            <div class="card-block"></div>
+            <p class="frame-txt">2 квартал</p>
+            <p id="frame-txt">2023</p>
+          </div>
+    
+          <img src="img/points.svg" class="card-img">
+    
+          <div class="frame1">
+            <div class="coins">
+              <p class="coins-txt">Разработка мобильного приложения для платформы</p>
+            </div>
+            <div class="coins">
+              <p class="coins-txt">Запуск онлайн игр на платформе</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">Стратегическое планирование и дальнейший рост</p>
+            </div>
+          </div>
+    
+        </div> -->
+    
+        <div class="card">
+    
+          <div class="frame1">
+            <div class="coins">
+              <p class="coins-txt">Можете в пижних биржах проиобрести:</p>
+            </div>
+            <div class="coins">
+              <p class="coins-txt">MexC</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">CoinW</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">Можете приобрести у брокеров компании</p>
+            </div>
+          </div>
+    
+          <img src="/all/main/img/Group 37.svg" class="card-img1" id="card-img1">
+    
+          <div class="frame">
+            <div class="card-block"></div>
+            <p class="frame-txt" style="margin-left: 15px;">Купите MCN на бирже</p>
+            <p id="frame-txt"></p>
+          </div>
+    
+        </div>
+    
+        <div class="card">
+    
+          <div class="frame">
+            <div class="card-block"></div>
+            <p class="frame-txt" style="margin-left: 15px;">Используйте MCN для совершения покупок</p>
+            <p id="frame-txt" style="font-size: 32px;">2024</p>
+          </div>
+    
+          <img src="/all/main/img/points.svg" class="card-img">
+    
+          <div class="frame1">
+            <div class="coins">
+              <p class="coins-txt">Можете использровать MCN в нашем Маркетплейсе</p>
+            </div>
+            <div class="coins">
+              <p class="coins-txt">Можете сделать донат нашей игре "Кочевники"</p>
+            </div>
+    
+            <div class="coins">
+              <p class="coins-txt">Можете использовать в повседнейной жизни</p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+      <footer>
+
+        <div class="grid">
+          <ul>
+            <div class="div">
+              <div class="flex">
+                <img class="fot-logo" src="/all/main/img/Frame.svg">
+                <img class="fot-logo" src="/all/main/img/Group 36.svg">
+              </div>
+            </div>
+            <li>MCNcoin инновационный токен компании "Бирик-Туран"</li>
+            <li>© 2024 MCNcoin</li>
+          </ul>
+        </div>
+        <div class="grid">
+    
+          <div id="app"></div>
+    
+          <ul>
+            <a href="#">
+              <li>О нас</li>
+            </a>
+            <a href="#">
+              <li>Контакты</li>
+            </a>
+            <a href="#">
+              <li>Roadmap</li>
+            </a>
+            <a id="disclaimer">
+              Дисклеймер
+            </a>
+            <a href="#" onclick="openPdfPage()">
+              <li>White paper</li>
+            </a>
+          </ul>
+        </div>
+        <div class="grid">
+          <ul>
+            <a href="#">
+              <li>Политика конфеденциальности</li>
+            </a>
+            <a href="#">
+              <li>Правила пользования</li>
+            </a>
+            <a href="#">
+              <li>Почта</li>
+            </a>
+            <div class="icons flex">
+              <a href="https://www.instagram.com/mcncoin_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i id="icon" class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/mcnofficialm?s=21"><i id="icon" class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://t.me/mcn_network"><i id="icon" class="fa-brands fa-telegram"></i></a>
+            </div>
+          </ul>
+        </div>
+    
+      </footer>
+      <script src="/all/main/script.js"></script>
+</body>
+</html>

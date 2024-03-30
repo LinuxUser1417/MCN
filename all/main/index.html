@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCN COIN</title>
+  <link rel="shortcut icon" href="https://mcncoin.io/assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- MENU -->
+
+  <div id="app"></div>
+
+    <div class="full-menu">
+      <div id="full-menu" class="flex">
+
+        <div class="full-close">
+          <img src="img/hamburger.svg">
+        </div>
+
+        <ul>
+          <li class="menu-txt"><a href="/all/whitePaper/assets/white paper ru.pdf">White paper</a></li>
+          <li class="menu-txt"><a href="https://t.me/mcn_network">Контакты</a></li>
+          <li class="menu-txt"><a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">Roadmap</a></li>
+          <li class="menu-txt"><a href="/all/main/disclaimer/index.html">Дисклеймер</a></li>
+        </ul>
+
+        <div id="language" class="flex" onclick="actionToggle();">
+          <img class="img-lang" src="img/android-globe.svg">
+
+          <p class="logo-txt">Русский - Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+
+        </div>
+      </div>
+    </div>
+
+  <div class="menu-wrapper">
+    <div class="menu flex">
+      <div class="logo flex">
+        <img class="absolute" src="img/Frame.svg">
+        <img class="absolute" src="img/Group 36.svg">
+      </div>
+      <div class="logo-txt">MCN COIN</div>
+    </div>
+
+    <div class="menu-btn">
+      <p class="menu-txt"><a href="/all/whitePaper/assets/white paper ru.pdf">White paper</a></p>
+      <p class="menu-txt"><a href="https://t.me/mcn_network">Контакты</a></p>
+      <p class="menu-txt"><a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">Roadmap</a></p>
+      <p class="menu-txt"><a id="disclaimer">Дисклеймер</a></p>
+    </div>
+
+    <script>
+      // Функция для прокрутки страницы к указанному элементу
+      function scrollToSection(sectionId) {
+          var element = document.getElementById(sectionId);
+          if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+          }
+      }
+  </script>
+
+    <div class="menu flex language" onclick="actionToggle();">
+      <span class="none">
+        <img class="img-lang" src="img/android-globe.svg">
+      </span>
+
+      <p class="logo-txt"><span class="none">Русский -</span> Ru <i id="anim" class="fa-solid fa-chevron-down"></i></p>
+      <a href="/all/english/english.html" class="before">English - En</a>
+
+
+
+
+    </div>
+    
+    <div id="none">
+      <div class="bars flex">
+        <div class="bar">
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+          <div class="img-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -->
+
+  <!-- MCN -->
+  <div class="wrapper">
+
+    <div class="align-items">
+      <div class="gif"><img src="/all/main/img/Frame.svg" alt=""></div>
+      <img class="gif-logo" src="/all/main/img/Group 36.svg">
+    </div>
+    <p class="shief-txt">Откройте для себя свободу <br>с MCNcoin (MCN).</p>
+    <div class="mini-txt">
+      <p class="shief-txt1">Выберите MCNcoin для финансовой независимости.</p>
+      <p class="shief-txt1">Инвестируйте в свое будущее с уверенностью в мире цифровых активов.</p>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="button flex">
+      <button onclick="goToPage()">Начало работы с MCN</button>
+      <button onclick="goToPageChoose()">Выбрать кошелек</button>
+      <button onclick="redirectToSite()">Получите MCN</button>
+    </div>
+    <!--  -->
+
+
+   
+      
+
+  </div>
+  <!--  -->
+
+  <script>
+    function redirectToSite() {
+        // Используем метод window.location.href для перехода на другой URL
+        window.location.href = "https://coinmarketcap.com/ru/currencies/mcncoin/";
+    }
+    </script>
+  <script>
+    function goToPageChoose() {
+        window.location.href = '/all/main/chooseWallet/index.html';
+    }
+  </script>
+
+  <script>
+    function goToPage() {
+        window.location.href = '/all/main/howToUse/index.html';
+    }
+  </script>
+
+  <!-- PARTNER -->
+
+  <div class="partner flex">
+    <img class="blur" src="img/Background Ellipse 1.svg" alt="">
+    <p class="patrner-txt">Партнеры</p>
+    <div class="block" style="margin: 25px;">
+      <div class="partner-block flex"><img src="/all/main/img/coingecko.png" width="370" height="200" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/metamask.webp" width="270" height="85" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/coinmarketcap.svg" width="270" height="70" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/mexc.svg" width="270" height="70" alt=""></div>
+    </div>
+
+    <div class="block">
+      <div class="partner-block flex"><img src="/all/main/img/TRUST WALLET.png" width="270" height="110" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/bscScan.png" width="80%" height="55%" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/PuncakeSwap.png" width="80%" height="95%" alt=""></div>
+      <div class="partner-block"><img src="/all/main/img/coinW.png" width="150" height="160" alt=""></div>
+    </div>
+  </div>
+
+  <!--  -->
+
+
+  <!-- ZAGALOVOK -->
+
+
+  <div class="zagalovok flex">
+    <div class="zglvk">
+      <div class="zglvk-txt">Мы - опытная команда профессионалов, стоящая за MCN.</div>
+      <div id="zglvk-txt">MCN - это криптовалюта, разработанная нашей компанией, "Бирик Туран", Это цифровой актив,
+        который предназначен для облегчения процессов платежей, инвестиций и обмена внутри нашей экосистемы MCN -
+        базируется на передовых технологиях блокчейн, обеспечивая безопасность и прозрачность транзакций.</div>
+      <div id="zglvk-txt">Наша монета предоставляет удобные решения для пользователей, позволяя им использовать
+        криптовалюту в различных аспектах своей повседневной жизни, включая оплату товаров и услуг, участие в наших
+        проектах и взаимодействие с нашими партнерами по всему миру.</div>
+    </div>
+  </div>
+
+<!-- Видео -->
+<div id="video-gallery">
+  <video class="video" src="/all/main/img/comand.MP4" type="video/mp4" muted loop autoplay></video>
+</div>
+
+  <div class="zagalovok1 flex">
+    <div class="zglvk">
+      <div class="zglvk-txt">Что такое MCN?</div>
+      <div id="zglvk-txt">MCN - это криптовалюта, разработанная нашей компанией, "Бирик Туран", Это цифровой актив,
+        который предназначен для облегчения процессов платежей, инвестиций и обмена внутри нашей экосистемы MCN -
+        базируется на передовых технологиях блокчейн, обеспечивая безопасность и прозрачность транзакций.</div>
+      <div id="zglvk-txt">Наша монета предоставляет удобные решения для пользователей, позволяя им использовать
+        криптовалюту в различных аспектах своей повседневной жизни, включая оплату товаров и услуг, участие в наших
+        проектах и взаимодействие с нашими партнерами по всему миру.</div>
+      <button class="zglvk-btn" onclick="openPdfPage()">Читать White Paper</button>
+    </div>
+  </div>
+  <div id="video-gallery">
+    <video class="video" src="/all/main/img/IMG_6741.MP4" type="video/mp4" muted loop autoplay></video>
+  </div>
+
+  <script>
+    function openPdfPage() {
+        window.location.href = "/all/whitePaper/assets/white paper ru.pdf";
+    }
+  </script>
+
+  <!--  -->
+
+  <div class="blur1"></div>
+
+
+  <!-- TABS -->
+
+  <div class="tabs flex" id="prem">
+    <div class="wrap">
+      <div class="buttonWrap flex">
+        <button class="tab-button toggle" data-id="home">Преимущества</button>
+        <button class="tab-button" data-id="about">Как использовать</button>
+      </div>
+      <div class="contentWrapper">
+
+        <span class="content toggle" id="home">
+          <p class="toggle-txt">Преимущества MCN</p>
+          <span class="tog">
+            <span class="tog-txt">
+              <p class="txt">1. Децентрализация и Безопасность:</p>
+              <p class="txt1">MCN основан на технологии блокчейн, что обеспечивает децентрализованность.</p>
+              <p id="txt1">Транзакции осуществляются без промежуточных учреждений, обеспечивая высокий уровень
+                безопасности.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">2. Независимость от Государства и Финансовых Учреждений:</p>
+              <p class="txt1">Не подконтролен государствам или финансовым учреждениям, что делает его альтернативой к
+                традиционным фиатным валютам.</p>
+            </span>
+          </span>
+          <span class=" tog">
+            <span class="tog-txt">
+              <p class="txt">3. Ограниченная Эмиссия и Стимулирование Роста Стоимости:</p>
+              <p class="txt1">Ограниченное количество эмиссии MCN способствует повышению цены актива, создавая условия
+                для стимуляции роста его стоимости.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">4. Глобальная Валюта для Международных Транзакций:</p>
+              <p class="txt1">Позволяет осуществлять международные транзакции без посредников, облегчая процесс и
+                уменьшая комиссии.</p>
+            </span>
+          </span>
+          <span class=" tog">
+            <span class="tog-txt">
+              <p class="txt">5. Альтернатива Фиатной Валюте:</p>
+              <p class="txt1">Предоставляет возможность инвестирования в альтернативную форму денег, свободную от
+                воздействия центральных банков.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">6. Хранение в Криптокошельке:</p>
+              <p class="txt1">Предоставляет инвесторам выбор между горячими и холодными криптокошельками для надежного
+                хранения.</p>
+            </span>
+          </span>
+          <span class=" tog">
+            <span class="tog-txt">
+              <p class="txt">7. Возможность Децентрализованного Инвестирования:</p>
+              <p class="txt1">Дает возможность инвестировать в децентрализованный актив, что может привлечь тех, кто
+                ищет альтернативные формы инвестирования.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">8. Осведомленность о Рисках:</p>
+              <p class="txt1">Предупреждает об инвестиционных рисках, стимулируя инвесторов тщательно разобраться в
+                деталях и взвесить все аспекты перед инвестированием.</p>
+            </span>
+          </span>
+        </span>
+
+        <span class="content" id="about">
+          <p class="toggle-txt">Как использовать MCN</p>
+          <span class=" tog">
+            <span class="tog-txt">
+              <p class="txt">1. Платежи и транзакции:</p>
+              <p class="txt1">MCN может использоваться для осуществления платежей за товары и услуги, как в онлайн-магазинах, так и в реальном мире, если местные продавцы поддерживают эту криптовалюту.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">2. Инвестиции и торговля: </p>
+              <p class="txt1">Как криптовалютный токен, MCN может использоваться для инвестирования и торговли на криптовалютных биржах.</p>
+            </span>
+          </span>
+          <span class="tog">
+            <span class="tog-txt">
+              <p class="txt">3. Участие в проектах и экосистеме:</p>
+              <p class="txt1">Некоторые проекты могут использовать MCN в качестве средства участия или голосования. </p>
+              <p id="txt1">Например, держатели токенов могут получить доступ к дополнительным функциям или преимуществам в рамках экосистемы, поддерживающей MCN.</p>
+            </span>
+            <span class="tog-txt">
+              <p class="txt">4. Поддержка разработчиков и сообщества: </p>
+              <p class="txt1">Путем пожертвований или покупки товаров и услуг, предлагаемых разработчиками и членами сообщества, можно поддержать дальнейшее развитие проекта, использующего MCN.</p>
+            </span>
+          </span>
+          <span class="tog">
+            <span class="tog-txt">
+              <p class="txt">5. NFT и цифровые активы:</p>
+              <p class="txt1">MCN может быть связан с покупкой и продажей цифровых активов, таких как NFT (неперемещаемые токены), которые представляют уникальные цифровые объекты или искусство.яч</p>
+            </span>
+          </span>
+        </span>
+
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <!-- CARD -->
+
+  <div class="cards flex" id="roadmap-section">
+    <p class="patrner-txt">Дорожная карта</p>
+    <div class="card">
+
+      <div class="frame">
+        <div class="card-block"><img src="/all/main/img/MEXC-photo.jpg" width="81px" height="85" alt=""></div>
+        <p class="frame-txt">1 квартал</p>
+        <p id="frame-txt">2024</p>
+      </div>
+
+      <img src="img/points.svg" class="card-img1">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Листинг на биржу MexC</p> 
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Получение официальных документов</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Стратегическое планирование и дальнейший рост</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- <div class="card">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Личная платформа для перевода</p>
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Улучшение безопасности</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Улучшение конфиденциальности</p>
+        </div>
+      </div>
+
+      <img src="img/points.svg" class="card-img1">
+
+      <div class="frame">
+        <div class="card-block"></div>
+        <p class="frame-txt">2 квартал</p>
+        <p id="frame-txt">2024</p>
+      </div>
+
+    </div> -->
+
+    <!-- <div class="card">
+
+      <div class="frame">
+        <div class="card-block"></div>
+        <p class="frame-txt">2 квартал</p>
+        <p id="frame-txt">2023</p>
+      </div>
+
+      <img src="img/points.svg" class="card-img">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Разработка мобильного приложения для платформы</p>
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Запуск онлайн игр на платформе</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Стратегическое планирование и дальнейший рост</p>
+        </div>
+      </div>
+
+    </div> -->
+
+    <div class="card">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Платежная система</p>
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Валидаторы</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Обменные пункты</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Пункты перевода</p>
+        </div>
+      </div>
+
+      <img src="img/Group 37.svg" class="card-img1" id="card-img1">
+
+      <div class="frame">
+        <div class="card-block"><img src="/all/main/img/0.png" width="100%" height="100%" alt=""></div>
+        <p class="frame-txt">2 квартал</p>
+        <p id="frame-txt">2024</p>
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <div class="frame">
+        <div class="card-block"><img src="/all/main/img/kkm.jpg" width="81px" height="81" alt=""></div>
+        <p class="frame-txt">3 квартал</p>
+        <p id="frame-txt" style="font-size: 32px;">2024</p>
+      </div>
+
+      <img src="img/points.svg" class="card-img1">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Личная платформа для перевода</p>
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Улучшение безопасности</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Улучшение конфиденциальности</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+
+      <div class="frame1">
+        <div class="coins">
+          <p class="coins-txt">Разработка мобильного приложения для платформы</p>
+        </div>
+        <div class="coins">
+          <p class="coins-txt">Запуск онлайн-игр на платформе</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Стратегическое планирование и дальнейший рост игры</p>
+        </div>
+
+        <div class="coins">
+          <p class="coins-txt">Внедрение новых возможностей и исправление недочетов в игре.</p>
+        </div>
+      </div>
+
+      <img src="img/Group 37.svg" class="card-img1" id="card-img1">
+
+      <div class="frame">
+        <div class="card-block"><img src="/all/main/img/nomad.jpg" width="81px" height="81" alt=""></div>
+        <p class="frame-txt">4 квартал</p>
+        <p id="frame-txt">2024</p>
+      </div>
+      
+    </div>
+   
+    <div id="video-gallery">
+      <video class="video" src="/all/main/img/IMG_6739.MP4" type="video/mp4" muted loop autoplay></video>
+    </div>
+    
+  </div>
+  <!--  -->
+
+
+  <!-- PROJECT -->
+  <div class="projects flex">
+    <p class="patrner-txt">Наши проекты</p>
+
+    <div class="project">
+
+      <div class="project-txt">
+        <p id="project-txt">Игры Кочевников</p>
+        <p id="project-txt1">Добро пожаловать в "Кочевники": Уникальный Опыт Кыргызстана! Многогранная игровая
+          платформа,
+          вдохновленная культурным наследием Кыргызстана, представляет "Кочевники" – увлекательный мир народных игр,
+          воплощающий виртуальное переживание кочевого образа жизни.</p>
+        <p id="project-txt">Почему "Кочевники" Уникальны?</p>
+        <p id="project-txt1">"Кочевники" предлагают уникальное взаимодействие с культурным наследием через народные
+          игры.
+          Ваш вклад поможет создать виртуальную кочевую общину с захватывающими возможностями на всех платформах!</p>
+      </div>
+
+
+      <div class="project-txt1">
+        <p id="project-txt">Основные Характеристики:</p>
+
+        <div class="items">
+          <div class="item slider">
+            <div class="item-block"><img src="/all/main/img/nomD.jpg" width="75px" height="75px" alt=""></div>
+            <p class="item-txt">Криптовалютный Донат:</p>
+            <p class="item-txt1">Внесите вклад в развитие, используя токен MCN для удобства и анонимности финансовых
+              транзакций.</p>
+          </div>
+          <div class=" item next">
+            <div class="item-block"><img src="/all/main/img/1b.jpg " width="75px" height="65px" alt=""></div>
+            <p class="item-txt">Разнообразие Народных Игр:</p>
+            <p class="item-txt1">Откройте богатое многообразие игр, включая ордо, альчики и другие, представляющие
+              культуру кыргызского народа.</p>
+          </div>
+          <div class=" item next">
+            <div class="item-block"><img src="/all/main/img/play.jpg" width="75px" height="65px" alt=""></div>
+            <p class="item-txt">Играй и зарабатывай:</p>
+            <p class="item-txt1">Откройте богатое многообразие игр, включая ордо, альчики и другие, представляющие
+              культуру кыргызского народа.</p>
+          </div>
+        </div>
+
+        
+
+        <div class="button-container">
+          <div class="item-button flex"><i class="fas fa-angle-left"></i></div>
+          <div class="item-button flex"><i class="fas fa-angle-right"></i></div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <img src="img/Background Ellipse 2.png" class="blur2">
+
+    <div id="video-gallery">
+      <video class="video" src="/all/main/img/nomad.mp4" type="video/mp4" muted loop autoplay></video>
+    </div>
+    
+
+
+    <div class="project">
+
+      <div class="project-txt">
+        <p id="project-txt">Маркетплейс MCN</p>
+        <p id="project-txt1"><span style="font-family: 'Gilroy-Bold';">Маркетплейс: Мировой масштаб с использованием
+            токенов MCN</span> Добро пожаловать на наш масштабный маркетплейс, предоставляющий услуги по всему миру и
+          обеспечивающий удобную оплату с использованием токенов MCN.</p>
+        <p id="project-txt1"><span style="font-family: 'Gilroy-Bold';">Описание маркетплейса:</span> Наш маркетплейс –
+          это глобальная платформа, где продавцы и покупатели со всего мира могут встречаться, торговать и обмениваться
+          товарами и услугами.</p>
+        <p id="project-txt">Почему наш маркетплейс уникален?</p>
+        <p id="project-txt1">Наш масштабный маркетплейс выделяется не только своим глобальным охватом, но и удобством
+          использования токенов MCN для обеспечения безопасных и эффективных транзакций в любой точке планеты.</p>
+      </div>
+
+      
+      <div class="project-txt1">
+        <p id="project-txt">Особенности маркетплейса:</p>
+
+        <div class="items">
+          <div class="item slider">
+            <div class="item-block"><img src="/all/main/img/innovTION.jpg" width="75px" height="65px" alt="">
+            </div>
+            <p class="item-txt">Инновационная платформа.</p>
+            <p class="item-txt1">Наш маркетплейс основан на передовых технологиях блокчейн и криптовалюты, что позволяет нам создавать инновационные решения для улучшения пользовательского опыта и расширения возможностей покупателей и продавцов.</p>
+          </div>
+          <div class="item next">
+            <div class="item-block"><img src="/all/main/img/global.avif" width="90px" height="65px" alt=""></div>
+            <p class="item-txt">Глобальный охват.</p>
+            <p class="item-txt1">Мы стремимся обеспечить доступ к нашему маркетплейсу для пользователей со всего мира. Наша платформа позволяет покупателям и продавцам взаимодействовать и совершать сделки вне зависимости от их местоположения.</p>
+          </div>
+          <div class="item next">
+            <div class="item-block"><img src="/all/main/img/transactions.webp" width="75px" height="65px" alt=""></div>
+            <p class="item-txt">Безопасные транзакции.</p>
+            <p class="item-txt1">Мы придаем большое значение безопасности и прозрачности транзакций на нашем маркетплейсе. С помощью технологии блокчейн мы обеспечиваем безопасность и надежность всех финансовых операций на платформе.</p>
+          </div>
+          <div class="item next">
+            <div class="item-block"><img src="/all/main/img/1.jpg" width="75px" height="65px" alt=""></div>
+            <p class="item-txt">Разнообразие товаров и услуг.</p>
+            <p class="item-txt1">Наш маркетплейс предлагает широкий выбор товаров и услуг от различных продавцов. Покупатели могут найти все, что им нужно, начиная от товаров ручной работы и искусства до цифровых товаров и услуг.</p>
+          </div>
+          <div class="item next">
+            <div class="item-block"><img src="/all/main/img/cryptocurrency.jpg" width="75px" height="65px" alt=""></div>
+            <p class="item-txt">Поддержка криптовалюты.</p>
+            <p class="item-txt1">Мы поддерживаем платежи криптовалютой, что делает наш маркетплейс удобным и доступным для пользователей, предпочитающих использовать цифровые активы для совершения покупок и продаж.</p>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <div class="item-button flex"><i class="fas fa-angle-left"></i></div>
+          <div class="item-button flex"><i class="fas fa-angle-right"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--  -->
+
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="grid">
+      <ul>
+        <div class="div">
+          <div class="flex">
+            <img class="fot-logo" src="img/Frame.svg">
+            <img class="fot-logo" src="img/Group 36.svg">
+          </div>
+        </div>
+        <li>MCNcoin инновационный токен компании "Бирик-Туран"</li>
+        <li>© 2024 MCNcoin</li>
+      </ul>
+    </div>
+    <div class="grid">
+
+      <div id="app"></div>
+
+      <ul>
+        <a href="#">
+          <li>О нас</li>
+        </a>
+        <a href="https://t.me/mcn_network">
+          <li>Контакты</li>
+        </a>
+        <a href="javascript:void(0);" onclick="scrollToSection('roadmap-section')">
+          <li>Roadmap</li>
+        </a>
+        <a id="disclaimer">
+          Дисклеймер
+        </a>
+        <a href="#" onclick="openPdfPage()">
+          <li>White paper</li>
+        </a>
+      </ul>
+    </div>
+    <div class="grid">
+      <ul>
+        <a href="#">
+          <li>Политика конфеденциальности</li>
+        </a>
+        <a href="#">
+          <li>Правила пользования</li>
+        </a>
+        <a href="#">
+          <li>Почта</li>
+        </a>
+        <div class="icons flex">
+          <a href="https://www.instagram.com/mcncoin_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i id="icon" class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/mcnofficialm?s=21"><i id="icon" class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://t.me/mcn_network"><i id="icon" class="fa-brands fa-telegram"></i></a>
+        </div>
+      </ul>
+    </div>
+
+  </footer>
+  <!--  -->
+<script src="/all/main/script.js"></script>
+</body>
+</html>
